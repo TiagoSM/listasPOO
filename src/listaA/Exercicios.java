@@ -3,9 +3,9 @@ package listaA;
 import java.util.Scanner;
 
 public class Exercicios {
-	private int exerciseNumber;
+	private byte exerciseNumber;
 	
-	public Exercicios (int exercise){
+	public Exercicios (byte exercise){
 		this.exerciseNumber = exercise;
 	}
 
@@ -38,6 +38,4 @@ public class Exercicios {
 			System.out.println("Azarado!");
 		}
 	}
-	
-	
 }
